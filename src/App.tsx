@@ -91,7 +91,7 @@ const SpeakPodcast = ({ query }: { query: string }) => {
       `https://api.elevenlabs.io/v1/text-to-speech/21m00Tcm4TlvDq8ikWAM`,
       {
         text: query,
-        model_id: "eleven_monolingual_v1", // or 'eleven_multilingual_v1'
+        model_id: "eleven_monolingual_v1", 
         voice_settings: {
           stability: 0.5,
           similarity_boost: 0.75,
